@@ -1,0 +1,90 @@
+body {
+margin: 0px;
+    
+}
+
+#navbar {
+  background-color: #D5D2D2;
+    font-family: 'Inconsolata', monospace;
+    display:flex;
+    justify-content:center;
+    width: 100%;
+    position:fixed;
+    
+}
+
+
+.nav {
+	
+	list-style-type: none;
+    padding-left: 10px;
+   margin: 0; 
+    display:flex;
+}
+
+
+.nav li {
+	
+    display:inline-block;
+	line-height:3;
+	text-align:center;
+    }
+.nav li a{
+    text-decoration: none;
+    color: #ffffff;
+     padding: 0 50px;
+   display:inline-block;
+    transition: all .2s;
+}
+.nav li a:hover {
+	color: #42f4e8;
+	background-color: #000fff;
+    transition: all .2s;
+    padding: 0px 40px;
+}
+.li{
+    float: left;
+}
+img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.dwight{
+    margin:auto;
+
+    
+}
+.backgroundimg{
+    background-image:url("https://static3.srcdn.com/wordpress/wp-content/uploads/2018/04/Rainn-Wilson-as-Dwight-Schrute-on-The-Office.jpg");
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:fixed;
+    left:0;
+    right:0;
+    z-index:-1;
+}
+.k{
+    font-family: 'Oswald', sans-serif;
+    float: right;
+    background-color: white;
+    margin-top: 300px;
+    margin-right: 50px;
+    padding: 0px 20px
+    
+    
+    
+}
+.k h1{
+ font-size: 75px;   
+}
+.headerspace{
+    height:100vh;
+    
+}
+.aboutdks{
+      background-color: white;
+      
+}
